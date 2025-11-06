@@ -12,7 +12,7 @@ test ("Open facebook.com and fill the form", async({page})=>{
 
    await page.locator("(//input[@name='firstname'])").fill("Anish")
 
-   await page.locator("input[name='firstname']").fill('Anish');
+   await page.locator("input[name='firstname']").fill('Ananya');
    
    await page.locator("input[name='lastname']").fill('Philip');
 
